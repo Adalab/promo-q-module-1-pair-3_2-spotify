@@ -8,21 +8,22 @@
 @import 'pages/index'; */
 
 @import 'core/reset';
+@import 'core/variables';
+
 
 /* SON LOS ESTILOS */
 
 
 
-
+:root{
+  font-family: $fontMain;
+}
 
 a {
   color: white;
   text-decoration: none;
 }
 
-body {
-  margin: 0;
-}
 
 /* header */
 
@@ -34,7 +35,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: black;
+  background: $backgroundBlack;
 }
 
 .hero-title {
@@ -62,13 +63,13 @@ body {
 }
 
 .link:hover {
-  color: #4bb84a;
+  color: $colorGreen;
 }
 
 .link-signup:before {
   padding-left: 4px;
   content: '|';
-  color: white;
+  color: $colorWhite;
 }
 
 /* main */
@@ -82,8 +83,8 @@ body {
 
 .hero {
   padding: 60px 30px 30px 30px;
-  background-color: #0691ff;
-  color: white;
+  background-color: $colorBlue;
+  color: $colorWhite;
   height: 50vh;
 }
 
@@ -104,7 +105,7 @@ body {
   margin-top: 30px;
   padding: 5px 25px;
   border-radius: 50px;
-  background-color: #4bb84a;
+  background-color: $colorGreen;
   font-size: 10px;
   font-weight: bold;
   letter-spacing: 1.5px;
@@ -158,17 +159,17 @@ body {
   justify-content: space-between;
   align-items: flex-end;
   padding: 15px;
-  background-color: black;
+  background-color: $colorBlack;
 }
 
 .footer,
 .footer * {
   font-size: 10px;
-  color: #999;
+  color: $colorGrey;
 }
 
 .footer-menu-links:hover {
-  color: white;
+  color: $colorWhite;
 }
 
 .footer-menu-items {
