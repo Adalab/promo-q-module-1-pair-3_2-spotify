@@ -1,9 +1,14 @@
 // fonts
 $fontMain: 'Roboto', sans-serif;
 
+
 // colors
 $colorBlack: black;
 $colorGreen: #4bb84a;
 $colorWhite: white;
 $colorBlue: #0691ff;
 $colorGrey: #999;
+
+:root {
+  font-family: $fontMain;
+}
