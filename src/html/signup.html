@@ -13,5 +13,59 @@
 </head>
 
 <body>
+<header>
+<img src="#" alt="Logo-spotify">
+</header>
+<main>
+<hero>
+  <h1>Regístrate gratis para escuchar.</h1>
+  <button><img src="#">Registrarte con Facebook</button>
+  <button><img src="#">Registrarte con Google</button>
+</hero>
+<fieldset>
+  <form action="">
+    <h3>Registrarte con tu correo electrónico</h3>
+    <label for="email">¿Cuál es tu correo electrónico?</label>
+    <input type="email" name="email" id="email" placeholder="Pon tu correo electrónico." required>
+
+    <label for="email">Confirma el correo electrónico</label>
+    <input type="email" name="email" id="email" placeholder="Vuelve a poner tu correo electrónico." required>
+
+    <label for="password">Crea una contraseña</label>
+    <input type="password" name="password" id="password" placeholder="Crea una contraseña." required>
+
+    <label for="user">¿Cómo quieres que te llamemos?</label>
+    <input type="text" name="user" id="user" placeholder="Pon un nombre de perfil." required>
+    <p>Esto aparece en tu perfil.</p>
+
+    <label>¿Cuál es tu fecha de nacimiento?</label>
+    <label for="day">Día</label>
+    <input type="number" name="day" id="day" placeholder="DD" min="1" max="31" required>
+
+    <label for="month">Mes</label>
+    <select name="month" id="month">
+      <option value="month" selected disabled>Mes</option>
+      <option value="month">Enero</option>
+      <option value="month">Febrero</option>
+      <option value="month">Marzo</option>
+      <option value="month">Abril</option>
+      <option value="month">Mayo</option>
+      <option value="month">Junio</option>
+      <option value="month">Julio</option>
+      <option value="month">Agosto</option>
+      <option value="month">Septiembre</option>
+      <option value="month">Octubre</option>
+      <option value="month">Noviembre</option>
+      <option value="month">Diciembre</option>
+    </select>
+
+    
+    <label for="year">Año</label>
+    <input type="number" name="year" id="year" placeholder="AAAA" min="1900" required>
+
+  </form>
+</fieldset>
+
+</main>
 
 </body>
